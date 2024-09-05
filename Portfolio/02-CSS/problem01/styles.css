@@ -1,0 +1,31 @@
+
+.top-container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(20, 12, 240);
+    border: 10px solid black;
+    padding: 20px;
+    margin-bottom: -20px;
+
+    display: inline-block;
+}
+
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    border:20px solid black;
+    margin-bottom: -260px;
+
+    display: inline-block;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 242, 0);
+    border: 10px solid black;
+    margin-bottom: -478px;
+
+    display: inline-block;
+}

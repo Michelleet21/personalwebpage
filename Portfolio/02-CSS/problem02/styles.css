@@ -1,0 +1,51 @@
+ .cuadrado1{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 0, 0);
+}
+
+.cuadrado2{
+    width: 200px;
+    height: 200px;
+    background: blue;
+   
+}
+
+.cuadrado3{
+    width: 200px;
+    height: 200px;
+    background: rgb(251, 255, 0);
+    
+}
+
+.cuadrado4{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 0, 0);
+    position:relative;
+    left: 400px;
+}
+
+.cuadrado5{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    align-content: center;
+    position:relative;
+    left: 400px;
+    
+}
+
+.cuadrado6{
+    width: 200px;
+    height: 200px;
+    background: rgb(251, 255, 0);
+    align-content: center;
+    position:relative;
+    left: 400px;
+}
+
+.contenedor{
+    display: flex;
+
+}

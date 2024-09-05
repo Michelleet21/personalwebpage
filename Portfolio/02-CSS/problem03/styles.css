@@ -1,0 +1,53 @@
+
+.top-container{
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    margin-bottom: 20px;
+
+    display:inline-block;
+}
+
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background: blue;
+    margin-bottom: -180px;
+
+    display:inline-block;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin-bottom: -380px;
+
+    display:inline-block;
+}
+
+
+.cuadro1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+    left: 800px;
+}
+
+.cuadro2{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 800px;
+}
+
+.cuadro3{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+    left: 800px;
+}
+

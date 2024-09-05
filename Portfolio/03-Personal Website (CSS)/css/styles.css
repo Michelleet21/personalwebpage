@@ -1,0 +1,25 @@
+.h1{
+    background-color: rgba(107, 28, 72, 0.192);
+}
+
+.link{
+    color: hotpink;
+}
+
+.link02{
+    color: rgba(238, 149, 16, 0.795);
+}
+
+thead{
+    background-color: rgba(137, 43, 226, 0.514);
+}
+
+.birth{
+    height: 200px;
+    width: 50%;
+}
+
+.tvshows{
+    height: 200px;
+    width: 80%;
+}

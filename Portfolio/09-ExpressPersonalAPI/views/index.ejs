@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Express Test</title>
+</head>
+<body>
+    <% if (error) { %>
+        <h3 style="color:red"><%= error %></h3>
+    <% } %>
+    <form action="/greet" method="get">
+        Register: <input type="text" name="name" placeholder="Name">
+        <input type="submit" value="Go">
+    </form>
+
+    <h3>Registered Users:</h3>
+    <ul>
+        <% names.forEach((name, index) => { %>
+            <li><a href="/greet/<%= index %>"><%= name %></a></li>
+        <% }) %>
+    </ul>
+
+    <h3>TODO List:</h3>
+    <ul>
+        <% tasks.forEach((task, index) => { %>
+            <li>
+                <%= task %>
+                <a href="/task/delete/<%= index %>">[Delete]</a>
+                <a href="/task/move-up/<%= index %>">&#x25B2;</a>
+                <a href="/task/move-down/<%= index %>">&#x25BC;</a>
+            </li>
+        <% }) %>
+    </ul>
+    <form action="/task" method="post">
+        New Task: <input type="text" name="task" placeholder="Add a task">
+        <input type="submit" value="Add Task">
+    </form>
+</body>
+</html>
